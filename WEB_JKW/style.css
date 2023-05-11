@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(39, 41, 46);
+    scroll-snap-type: y mandatory; /* 세로 스크롤 snap 기능 활성화 */
+}
+  
+section {
+    position: relative;
+    scroll-snap-align: start; /* 각 섹션을 화면 가운데에 snap */
+    height: 100vh; /* 화면 높이만큼 섹션 높이 설정 */
+}
+  
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 140px;
+}
+nav ul li:last-child {
+    margin-right: 0;
+}
+nav {
+    background-color: rgb(39, 41, 46);
+    border-bottom: 1px solid #fff;
+    width: 60%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 0;
+}
+
+ 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    display: inline-block;
+    padding: 10px;
+}
+  
+h1 {
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    letter-spacing: 4px;
+    font-family: 'Times New Roman', serif;
+
+}
+a:hover {
+    background-color: white;
+    color: black;
+}  
+.image-container {
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+}
+img {
+    width: 55%;
+    display: block;
+    margin: 130px auto 0;
+}
+  
+.intro-container {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 50px 0;
+  }
+  
+  .intro-info {
+    width: 30%;
+    padding: 0 180px;
+    margin-left: 20px;
+
+  }
+  
+  .intro-image {
+    width: 30%;
+  }
+  
+  .intro-info h2 {
+    color: rgb(94, 95, 97);
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .intro-image img {
+    width: 65%;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+  }
+
+  .icon-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0;
+  }
+  
+  .icon-image {
+    display: flex; /* 추가 */
+  }
+  
+  .icon-image img {
+    width: 20%;
+    border-radius: 20%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin: 0 auto 0 285px; /* 수정 */
+  }
+  
