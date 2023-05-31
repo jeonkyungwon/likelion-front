@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <title>자기소개서</title>
+    
+</head>
+<body>
+
+    <nav id="topMenu">
+        <ul>
+                <li><a class="menuLink" href="#section1">About Me</a></li>
+                <li><a class="menuLink" href="#section2">Hobby</a></li>
+                <li><a class="menuLink" href="#section3">Favorite</a></li>
+                <li><a class="menuLink" href="#section4">Github</a></li>
+                
+        </ul>
+    </nav>
+    <main>
+        <section id="section1">
+            <h3>About Me</h3>
+            <img src="./img/me.jpg" alt="" style="padding-top:30px;">
+            <ul>
+                <li>창문여자고등학교</li>
+                <li>세종대학교-소프트웨어학과</li>
+                <li>java,python,c언어,c++</li>
+                <li>html,css,javascript</li>
+            </ul>
+        </section>
+    
+        <section id="section2">
+            <h3>Hobby</h3>
+            <img src="./img/draw.png" alt="" width="300px" height="300px">
+            <img src="./img/movie.png" alt="" width="300px" height="300px">
+            <img src="./img/healthy.webp" alt="" width="300px" height="300px">
+        </section>
+    
+    
+        <section id="section3">
+            <h3>Favorite</h3>
+            <div class="section">
+                <input type="radio" name="slide" id="slide01" checked>
+                <input type="radio" name="slide" id="slide02">
+                <input type="radio" name="slide" id="slide03">
+                <div class="slide-wrap">
+                    <ul class="slidelist">
+                        <li>
+                            <a>
+                                <label for="slide03" class="left"></label>
+                                <div class="textbox">
+                                    <h3>첫번째 슬라이드</h3>
+                                    <p>첫번째 슬라이드 입니다.</p>
+                                </div>
+                                <img src="./img/booqoo.png">
+                                <label for="slide02" class="right"></label>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <label for="slide01" class="left"></label>
+                                <div class="textbox">
+                                    <h3>두번째 슬라이드</h3>
+                                    <p>두번째 슬라이드 입니다.</p>
+                                </div>
+                                <img src="./img/yeolak.png">
+                                <label for="slide03" class="right"></label>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <label for="slide02" class="left"></label>
+                                <div class="textbox">
+                                    <h3>세번째 슬라이드</h3>
+                                    <p>세번째 슬라이드 입니다.</p>
+                                </div>
+                                <img src="./img/lol.png">
+                                <label for="slide01" class="right"></label>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    
+        <section id="section4">
+            <h3>Github</h3>
+            <a href="https://github.com/" target="_blank"><img src="./img/mygithub.png" alt="" width:80% style="padding-left:5%;"></a>
+        </section>
+    </main>
+    
+   
+    
+</body>
+</html>
